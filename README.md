@@ -6,7 +6,7 @@ This is an exciting time to be a scientist, because a Theory of Biology that is 
 
 This page gives an overview of my code repositories, as well as some other places where I've contributed ideas and written code:
 
-- [azulejo](https://github.com/joelb/azulejo) combines guilt-by-profiling (genome synteny) and guilt-by-association (phylogeny) to create pangenomic collections of gene families. 
-- [Sequedex](https://sequedex.lanl.gov) is award-winning software that uses scalable signature methods to classify short DNA sequences as to where they come from and what they do.  The Sequedex open-source repository is [here](https://github.com/lanl/sequedex-core)
-- [Solve](https://solve.lanl.gov) is award-winning software that helps automate the problem of phasing X-ray crystal structures of proteins.  It calculates a statistic that acts very much like autofocus on a camera.
+- [azulejo](https://github.com/joelb123/azulejo) combines guilt-by-profiling (genome synteny) and guilt-by-association (phylogeny) to create pangenomic collections of gene families. 
+- [Sequedex](https://sequedex.lanl.gov) is award-winning software that uses scalable signature methods to classify short DNA sequences as to where they come from and what they do.  Sequedex is mostly used in metagenomics and surveillance for emergent infectious diseases. The Sequedex open-source repository is [here](https://github.com/lanl/sequedex-core).  
+- [SOLVE](https://solve.lanl.gov) is award-winning software that helps automate the problem of phasing X-ray crystal structures of proteins.  It calculates a statistic that acts very much like autofocus on a camera.  SOLVE is closed-source.
 
