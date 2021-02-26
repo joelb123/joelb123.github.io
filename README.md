@@ -1,6 +1,6 @@
-## Bridging Sequence and Structure to the Theory of Biology
+## Connecting Biological Sequence and Structure Data to Theory 
 
-My name is Joel Berendzen. I'm a computational biologist and biophysicist. I write **scalable, well-engineered software** that uses models from **physical chemistry, evolution, and ecology** to put **biological data in context**.
+My name is [Joel Berendzen](https://bit.ly/JoelBerendzen). I'm a computational biologist and biophysicist. I write **scalable, well-engineered software** that uses models from **physical chemistry, evolution, and ecology** to put **biological data in context**.
 
 This is an exciting time to be a scientist, because a Theory of Biology that is emerging today in much the same way that the Theory of Physics emerged in the 1930's.  Biology has **evolutionary theory** (in its modern form of molecular phylogeny) at the quantum end of its scale.  At the cosmic scale lies **ecological theory** with roots in island ecology.  At both ends, the theory is quantitative and makes testable predictions with several significant figures of accuracy. In between, things get messy, and a large community of scientists works at building a bridge, making contact with physics, chemistry, and mathematics throughout the span.  The tools to build that bridge are increasingly embodied as code.
 
