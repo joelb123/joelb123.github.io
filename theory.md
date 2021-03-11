@@ -1,7 +1,5 @@
 ## A Theory of Biology Starts By Breaking Things
 
-![DNA/tree](dna+tree.png)
-
 Now is an exciting time to be a scientist with a quantitative bent working in biology, 
 because a Theory of Biology is emerging in much the same way that the Theory of Physics
 emerged in the early 20th century.  Physics back then was getting broken in interesting 
@@ -14,7 +12,7 @@ tissue-atlas data, in particular, are breaking some long-held assumptions about 
 information flows around and through living things by finding surprising bits of
 sequence in places they shouldn't belong.  But data by itself is not a theory.
 
-### What will a Theory of Biology look like?
+### A Theory of Biology Starts With Building a Bridge
 You may object, dear reader, that there already *is* a Theory of Biology, which 
 is evolution and was written by Charles Darwin back in 1859.  I will counter that
 what Darwin wrote was a *model*---a supremely important one---and that the fossil
@@ -24,39 +22,36 @@ subsuming subsuming quantitative models where they exist, and evolutionary theor
 in its quantitative form of **molecular phylogeny** certainly must be included to anchor
 the quantum end of the size scale.  At the opposite, cosmic, end of the scale, lies 
 another part of biological theory, ecology, with its roots in **island ecology**.  
+
 At both ends, the theory is quantitative and makes testable predictions with several 
 significant figures of accuracy, for example in genome sequencing recapitulating and
 extending the extensive trait-based data in *Bergey's Manual of Systematic Bacteriology*.
 But yet things are messy, with critical real-world effects to be accounted for, such as 
-horizontal gene transfer, RNA-world regulation, emergence of neural processing, and
-host-biota interactions.  Horizontal gene transfer is a particular sore point, because
+RNA-world regulation, emergence of neural processing, and
+host-biota interactions.  **Horizontal gene transfer** is a particular sore point, because
 it turns out to be the dominant means of evolution and geochemistry on the planet. 
-It's going to take sustained efforts
-from a large community of scientists working on groundbreaking data streams for a period
-that extends beyond my lifetime to **build the necessary bridge** between the micro and
-macro scale, making contact with physics, chemistry, and mathematics throughout the span.
-The tools to build that bridge are increasingly embodied as code.  When I write code,
-I'm writing for those future scientists as well as solving a particular problem today.  
-If I do my part well, my efforts are to be a model and example, not just a means to an end.
+It's going to take a sustained effort for a period
+that extends beyond my lifetime to build the framework **between the micro and
+macro scales**, making contact with physics, chemistry, and mathematics throughout the span.
 
 ### Data to Signatures
 Before there can be a theory, there has to be a model, and before there is a model, there
-has to be *signatures* of the phenomenon you're studying. A good set of signatures can carry
+have to be **signatures of the phenomenon** you're studying. A good set of signatures can carry
 you a great distance into the project in both data collection and understanding.  Well-designed
-projects generally start with identifying a *gradient* in the phenomenon, such as the famous
+projects generally start with identifying a **gradient in the phenomenon**, such as the famous
 diversity gradients in ecological diversity observed as a function of latitude.  Then, one
 collects **data with replicates**, maybe does some **dimensionality reduction** with PCA or
-a fancy newer method, and out pops the **signal--to--noise** ratio for the putative signatures
+a fancy newer method, and out pops the **signal--to--noise ratio** for the putative signatures
 as a function of signal strength.  You then sit scratching your head at what the signatures
 might imply, both when looked at bottom-up from the micro view (sequence) or top-down from the
-macro view (ecology).  If everything aligns to tell a story, then you have some signatures.
+macro view (ecology).  If everything aligns to tell a story, then you have your signatures.
 
 ### Phenomenological Models
 Next you're going to cast a broad net and make histograms of signature frequencies, often
 in various problem-specific transform spaces. If those histograms look gaussian, they 
 probably arise from a random process and are not particularly interesting.  But usually 
 some distribution that you calculate looks mostly like a straight line in a log-log plot. 
-*Voila*, you've just created a phenomenological model featuring a *power-law distribution*.
+*Voila*, you've just created a phenomenological model featuring a **power-law distribution**.
 
 I've spent a good part of my scientific career working on power-law distributions, and 
 they're both unavoidable and a bit painful.  You need either a lot of orders
@@ -75,44 +70,44 @@ enough to rule-in or rule-out most mechanisms.
 
 ### Mechanistic Models
 When one makes a bit more progress into a data stream, a key step is to make a
-model that puts in a bit of the structure, physics, and chemistry of the system to produce
-a *mechanistic model* of the data.  The model will necessarily be quite crude at first,
+model that puts in a bit of the **3-D structure, physics, and chemistry** of the system to produce
+a mechanistic model of the data.  The model will necessarily be quite crude at first,
 but even crude models can have a predictive value and a utility that exceeds that of a
 phenomenological model.  For instance, the model of neurons used in current neural-network
 machine-learning models reproduce few of the features of spiking neuron data, yet they
 work well enough to enable feature classification by deep learning.  To cover all the
-bases, most mechanistic models will need to be **multiscale** with some understanding
+bases, most mechanistic models will need to be **extended to multiscale** with some understanding
 from the highest resolutions patched in to the big picture on the biggest scales and
 hopefully limiting the range of acceptable parameters in the model.
 
 You'll have to revisit the mechanistic models every time new data appears, especially if
 those data are from independent techniques on a comparable model system.  Some really
 surprising new results will send you back to look at the signatures, maybe all the way
-back to designing a new experiment to integrate the new data stream if you can.  The
-mechanistic model refinement process is work that's never finished, only abandoned.
+back to designing a new experiment.  The process of **model refinement is never finished,
+only abandoned**.
 
-
-### All the Applications We Cannot See
-Physicists working on quantum mechanics in the 1930's could see the application of atomic
-energy in the future, yet they couldn't have predicted applications such as a smartphonei
-connected to the Internet.  So, while I'm sure that a Theory of Biology will help with
-medical diagnostics and therapeutics, I can't presume to envision the really revolutionary
-applications that are years out. But here I go anyway, guessing the *shape* of applications
 from the bits of things sticking up above the surface right now.  For one, it seems that we
 have vastly underestimated the extent to which we humans with other biota, and the extent 
 that interaction helps determine what it means to be human. 
 
 ### We Live in a Biofield 
-I think of life as existing in a *biofield* consisting of sequence, not just genomes from
-eukaryotes and microbes, but also of an immense number of virus-like particles (VLPs).  These
-VLPs are a medium for exchanging messages useful in adapting to local conditions than about
+While I have faith that a Theory of Biology will help with medical diagnostics and 
+therapeutics, I can't presume to envision the really revolutionary applications that 
+are years out.  But I do see a few structures sticking above the surface right now.
+For one, it seems that **we have vastly underestimated the extent to which humans 
+interact with other biota**, and how that interaction helps determine what it means 
+to be human. 
+
+My view is that **life exists in a biofield of sequences** consisting not just genomes from
+plants, animals, and microbes, but also of an immense number of virus-like particles (VLPs).
+These VLPs are a medium for exchanging messages useful in adapting to local conditions than about
 infection, and are more about how to cooperate to solve problems together than about
-biological warefare.  Recent results in marine viral metagenomics have shown that they are
+biological warefare.  Recent results in marine viral metagenomics have shown that the VLPs are
 likely the dominant source of carbon in the ocean and, by extension, the main engine of
 evolution on earth.  The biofield generally supports and sustains us, pointing the way to 
 sustaining increased amounts of Life in the local environment the organisms there mutually create.
 
-The maximum activity of and gradients in the biofield occur at interfaces.  For
+The biofield is most dynamic at interfaces.  For
 example, at the luminal surface of the intestine, the partial pressure of molecular oxygen
 goes from half an atmosphere to nearly zero in a distance of 100 microns, creating a gradient
 in which microaerobes compete for access while our gut-brain connection determines what regions
@@ -120,11 +115,11 @@ get rewarded with increased blood flow while others get punished with toxic sulf
 chemical warfare agents.  The interface appears to extend beyond the gut wall through
 selective induction of bacteria into macrophages that circulate live-but-passive
 microbes throughout the body.  This process was first observed by the Russian scientist
-Ilya Metchnikov, who discovered macrophages in work for which he won the 1908 Nobel Prize.i
+Ilya Metchnikov, who discovered macrophages in work for which he won the 1908 Nobel Prize.
 Why does the immune system find it advantageous to do this?  Nobody knows, but my guess---which
 is close to Metchnikov's---is that this bit of the biofield gets circulated to carry out chemistry
 in specific sites that the host can't efficiently accomplish by itself, such as remodeling
 dead tissue at sites of inflammation or synthesizing neurochemicals that signal "eat more" or
-"you're happy, do that again soon".  Lots of people have remarked that happiness is 
-contageous in communities of people that are doing good things together.  My guess is that
+"you're happy, do that again soon".  Lots of people have remarked that **happiness is 
+contageous** in communities of people that are doing good things together.  My guess is that
 the Theory of Biology will one day teach us how to measure and promote that happiness.

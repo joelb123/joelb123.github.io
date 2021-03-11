@@ -2,7 +2,7 @@
 
 ![DNA/tree](dna+tree.png)
 
-"Follow the data!" was the dictum my advisor, 
+**"Follow the data!"** was the dictum my advisor, 
 [Hans Frauenfelder](https://en.wikipedia.org/wiki/Hans_Frauenfelder)
 gave me more than 30 years ago as I was contemplating what to do after I finished my PhD.
 At the time Hans said that, biology wasn't especially data-rich, but by 2021 the situation
@@ -17,39 +17,43 @@ about to be huge streams coming out of microscopy-driven projects such as NIH's 
 Initiative.  Biology has quietly become the most data-intensive science of the Age of 
 Big Data.
 
-[Here's an essay](theory.md) on what it means to work towards a Theory of Biology, 
-with thoughts on data, signatures, models, and applications.
+Here's a short [essay on creating the Theory of Biology](theory.md)
+by building bridges among  data, signatures, models, and applications.
 
-Most of my recent work has been on genomic sequences.  [Here are some thoughts](bioinformatics.md)
-on bioinformatics and bioinformaticians.
+Much of my recent work has been on genomic sequences.  Here are some 
+[thoughts on bioinformatics and bioinformaticians](bioinformatics.md).
 
-I write software to analyze data, and I have a few [thoughts on software](software.md)
-to share for those interested in that kind of thing.
+I author software to analyze data, and I try to write for the future as well as
+to solve particular problems today.  If I do my part well, my efforts are to be a 
+model and example, not just a means to an end.  Here are my 
+[thoughts on writing scalable software](software.md).  
 
 I have published 
-[roughly 50 papers with over 12,000 citations](https::/bit.ly/JoelBerendzen) that
-explore the interrelations among sequences, structures, gene-family trees, dynamics, and hydration.
+[roughly 50 papers with over 12,000 citations](https://bit.ly/JoelBerendzen) that
+explore the interrelations among equences, structures, gene-family trees, dynamics,
+and hydration.
 
-Here is an overview of some of my code repositories and other places where I've contributed:
+Here is an overview of ome of my **code repositories** and other places where I've contributed:
 
 - [azulejo](https://github.com/joelb123/azulejo) combines guilt-by-profiling (genome synteny) 
   and guilt-by-association (phylogeny) to create pangenomic collections of gene families and
   tile phylogenetic space with supertrees of proxy genes.  Uses out-of-memory external merges
   and a novel "peatmer" algorithm to achieve linear scaling with a small memory footprint to 
   accomodate large numbers of input genomes.
-- [click_loguru](https://github.com/joelb123/click_loguru) Most scientific code needs and CLI and
+- [click_loguru](https://github.com/joelb123/click_loguru) Most scientific code needs a CLI and
   benefits from logging to a file.  This repository combines those two needs and is the starting
   point for most of my active codes.
 - [pytest-datadir-mgr](https://github.com/joelb123/pytest-datadir-mgr) Most scientific code needs
-  to download data files for testing that are too large to be kept in the repository.  The code in 
+  to test data that are too large to be kept in the repository.  The code in 
   this repository makes downloading input data and saving intermediate results an easier task.
 - [pybio Gentoo Overlay](https://github.com/joelb123/pybio) Computational biologists need a
-  development distro, and for years mine has been Gentoo because of the large number of
+  development distro, and for years mine has been [Gentoo](https://gentoo.org) i
+  because of the large number of
   biology-related packages and because its a source-code distribution.  (For production and
   container use, I like [Clear Linux](https://clearlinux.org) for its performance and update
   properties.)  This private repo contains another 100 or so packages that I find useful on top of 
-  the 200 in the main
-  tree and the 300 in the Science overlay.
+  the 200 in the main tree and the 300 in the 
+  [Science overlay](https://wiki.gentoo.org/wiki/Project:Science/Overlay).
 - [aakbar](https://github.com/joelb123/aakbar) This Amino Acid K-mer calculator can be used to 
   calculate signature peptides by phylogenetic or other means.  Its output can be used in Sequedex
   or other signature methods.  Its input can be raw proteomes, but it's better with sets of proxy
