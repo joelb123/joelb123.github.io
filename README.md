@@ -33,7 +33,7 @@ I have published
 explore the interrelations among equences, structures, gene-family trees, dynamics,
 and hydration.
 
-Here is an overview of ome of my **code repositories** and other places where I've contributed:
+Here is an overview of some of my **code repositories** and other places where I've contributed:
 
 - [azulejo](https://github.com/joelb123/azulejo) combines guilt-by-profiling (genome synteny) 
   and guilt-by-association (phylogeny) to create pangenomic collections of gene families and
