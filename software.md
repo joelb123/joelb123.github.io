@@ -1,6 +1,5 @@
 # Building Scalable Software
 
-### Software Improvements Beat Hardware Improvements
 I was lucky enough to get to interact for a brief time with **Max Perutz**, for my money
 one of the greatest scientists of all time, back when I made the first crystallographic movies of "his" 
 protein myoglobin in action.  Back in 1951, when Perutz had his grad student John Kendrew learn 

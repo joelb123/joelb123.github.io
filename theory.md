@@ -1,4 +1,4 @@
-## A Theory of Biology Starts By Breaking Things
+## Towards a Theory of Biology
 
 Now is an exciting time to be a scientist with a quantitative bent working in biology, 
 because a Theory of Biology is emerging in much the same way that the Theory of Physics
@@ -12,7 +12,7 @@ tissue-atlas data, in particular, are breaking some long-held assumptions about 
 information flows around and through living things by finding surprising bits of
 sequence in places they shouldn't belong.  But data by itself is not a theory.
 
-### A Theory of Biology Starts With Building a Bridge
+### Work at Building Bridges
 You may object, dear reader, that there already *is* a Theory of Biology, which 
 is evolution and was written by Charles Darwin back in 1859.  I will counter that
 what Darwin wrote was a *model*---a supremely important one---and that the fossil
