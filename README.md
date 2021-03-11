@@ -1,4 +1,4 @@
-## Current Opinions of Joel Berendzen
+## Current Opinions of Joel Berendzen (early 2021)
 
 ![DNA/tree](dna+tree.png)
 
@@ -13,24 +13,24 @@ been producing that much data *per month* for the last few years.
 Moreover, the number of labs with sequencers in them is a lot larger---and growing faster--than
 the number of labs with telescopes.  It's not just sequencers, either; there are sizeable
 data flows from protein crystallography at synchrotron beamlines worldwide, and there's
-about to be huge streams coming out of microscopy-driven projects such as NIH's BRAIN
-Initiative.  Biology has quietly become the most data-intensive science of the Age of 
-Big Data.
+about to be huge streams coming out of microscopy-driven projects such as the Human
+Brain Mapping Initiative.  Biology has quietly become the most data-intensive science 
+of the Age of Big Data.
 
-Here's a short [essay on creating the Theory of Biology](theory.md)
+Here's an essay on [creating the Theory of Biology](theory.md)
 by building bridges among  data, signatures, models, and applications.
 
 Much of my recent work has been on genomic sequences.  Here are some 
-[thoughts on bioinformatics and bioinformaticians](bioinformatics.md).
+thoughts on [bioinformatics and bioinformaticians](bioinformatics.md).
 
-I author software to analyze data, and I try to write for the future as well as
+I create software to analyze data, and I try to write for the future as well as
 to solve particular problems today.  If I do my part well, my efforts are to be a 
-model and example, not just a means to an end.  Here are my 
-[thoughts on writing scalable software](software.md).  
+model and example, not just a means to an end.  Here are my thoughts on
+[writing scalable software](software.md).  
 
 I have published 
 [roughly 50 papers with over 12,000 citations](https://bit.ly/JoelBerendzen) that
-explore the interrelations among equences, structures, gene-family trees, dynamics,
+explore the interrelations among sequences, structures, gene-family trees, dynamics,
 and hydration.
 
 Here is an overview of some of my **code repositories** and other places where I've contributed:
@@ -44,7 +44,7 @@ Here is an overview of some of my **code repositories** and other places where I
   benefits from logging to a file.  This repository combines those two needs and is the starting
   point for most of my active codes.
 - [pytest-datadir-mgr](https://github.com/joelb123/pytest-datadir-mgr) Most scientific code needs
-  to test data that are too large to be kept in the repository.  The code in 
+  to test using data files too large to be kept in the repository.  The code in 
   this repository makes downloading input data and saving intermediate results an easier task.
 - [pybio Gentoo Overlay](https://github.com/joelb123/pybio) Computational biologists need a
   development distro, and for years mine has been [Gentoo](https://gentoo.org) i
@@ -57,16 +57,15 @@ Here is an overview of some of my **code repositories** and other places where I
 - [aakbar](https://github.com/joelb123/aakbar) This Amino Acid K-mer calculator can be used to 
   calculate signature peptides by phylogenetic or other means.  Its output can be used in Sequedex
   or other signature methods.  Its input can be raw proteomes, but it's better with sets of proxy
-  genes from azulejo.
+  genes from *azulejo*.
 - [alphabetsoup](https://github.com/joelb123/alphabetsoup) Parallel data wrangling of input sequences,
   including alphabet checking and removal of some ugly but common artifacts.
-- [biofletch](https://github.com/joelb123/biofletch) Unfinished alpha code for a Apache Arrow/Parquet-
-  based replacement of FASTA and GFF files. Some of the useful bits were incorporated in azulejo. 
-- [Sequedex](https://sequedex.lanl.gov) is award-winning software that uses scalable signature methods
+- [Sequedex](https://sequedex.lanl.gov) is R&D100 award-winning software that uses scalable signature methods
   to classify short DNA sequences as to where they come from and what they do.  Sequedex is mostly used
   in metagenomics and surveillance for emergent infectious diseases. The Sequedex open-source repository
   is [here](https://github.com/lanl/sequedex-core).  
-- [SOLVE](https://solve.lanl.gov) is award-winning software that helps automate the problem of phasing
+- [SOLVE](https://solve.lanl.gov) is R&D100 award-winning software that helps automate the problem of phasing
   X-ray crystal structures of proteins.  It calculates a statistic that acts very much like autofocus 
   on a camera.  SOLVE is closed-source.
 
+You can comment on this page or reach me on [Twitter](https://twitter.com/Sequedex).

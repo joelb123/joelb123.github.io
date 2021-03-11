@@ -31,8 +31,8 @@ RNA-world regulation, emergence of neural processing, and
 host-biota interactions.  **Horizontal gene transfer** is a particular sore point, because
 it turns out to be the dominant means of evolution and geochemistry on the planet. 
 It's going to take a sustained effort for a period
-that extends beyond my lifetime to build the framework **between the micro and
-macro scales**, making contact with physics, chemistry, and mathematics throughout the span.
+that extends beyond my lifetime to build the **bridge between the quantum and
+cosmis scales**, making contact with physics, chemistry, and mathematics throughout the span.
 
 ### Data to Signatures
 Before there can be a theory, there has to be a model, and before there is a model, there
@@ -107,7 +107,7 @@ likely the dominant source of carbon in the ocean and, by extension, the main en
 evolution on earth.  The biofield generally supports and sustains us, pointing the way to 
 sustaining increased amounts of Life in the local environment the organisms there mutually create.
 
-The biofield is most dynamic at interfaces.  For
+**The biofield is most dynamic at interfaces.**  For
 example, at the luminal surface of the intestine, the partial pressure of molecular oxygen
 goes from half an atmosphere to nearly zero in a distance of 100 microns, creating a gradient
 in which microaerobes compete for access while our gut-brain connection determines what regions
@@ -115,7 +115,8 @@ get rewarded with increased blood flow while others get punished with toxic sulf
 chemical warfare agents.  The interface appears to extend beyond the gut wall through
 selective induction of bacteria into macrophages that circulate live-but-passive
 microbes throughout the body.  This process was first observed by the Russian scientist
-Ilya Metchnikov, who discovered macrophages in work for which he won the 1908 Nobel Prize.
+[Ilya Metchnikov](https://en.wikipedia.org/wiki/%C3%89lie_Metchnikoff), who discovered 
+macrophages in work for which he won the 1908 Nobel Prize.
 Why does the immune system find it advantageous to do this?  Nobody knows, but my guess---which
 is close to Metchnikov's---is that this bit of the biofield gets circulated to carry out chemistry
 in specific sites that the host can't efficiently accomplish by itself, such as remodeling

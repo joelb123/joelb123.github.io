@@ -24,8 +24,9 @@ on software that might be useful as part of solving the problem.  The saying tha
 lab will save you an afternoon in the library" is nowhere more true than in writing software.
 So a good consumer of scientific software is a person who watches streams of news for
 interesing codes.  Some streams I personally find useful are the customizable ones
-such as Twitter and Google Scholar, incubator sites such as the Apache Foundation, 
-and software streams like the science section of my favorite Linux distribution.
+such as [Twitter](https://twitter.com/Sequedex) and [Google Scholar](https://bit.ly/JoelBerendzen), 
+incubator sites such as the [Apache Foundation](https://apache.org), 
+and software streams like the science section of Linux distributions that I update weekly.
 
 ###  Files, Legacies, and Carbon
 Someday you will move on. The databases you built will be spun down, the containers you used
@@ -63,7 +64,7 @@ Internal compression---really common for columnar storage schemese these days---
 chosen to optimize speed from a fast NVME M.2 disk because that's the best guess as to
 what the future will look like. 
 
-Other secondary considerations do matter, for instance **loss of metatadata**, which happens
+Other secondary considerations do matter, for instance **loss of metadata**, which happens
 far too often in practice.  A downstream user shouldn't have to look up data types in an
 external dictionary just to be able to parse a file properly, nor should one have to obey 
 a complex scheme to hide metadata in the names of features.  **Human readability matters
@@ -86,7 +87,7 @@ machine or to distribute memory over many instances.  But you pay a price for me
 that can be expressed in terms of fanout, energy, dollars, and time to spin up.
 Depending on how your code scales, that can get prohibitively expensive fast,
 especially for someone years later who may only want to look at a small subset
-of data.  **Memory management is all too ofetn a black box on the back burner**,
+of data.  **Memory management is all too often a black box on the back burner**,
 and I've gotten burned on that back burner.
 
 Databases can be wonderful, especially for distributed writes where the data
@@ -97,7 +98,7 @@ especially an issue if you are relying on the database to do joins, because
 this put significant science logic outside your code and in database-land.
 
 My approach lately has been to **put large joins into code that can be run either
-on-disk or in-memory**  based on demand and available resources.  For production,
+on-disk or in-memory** as demand and available resources dictate.  For production,
 those merges can be put into networked filesystems with an external
 merge server that can be high-memory if need be.  But development still fits
 onto a GPU-equipped consumer desktop with good price/performance ratio and energy
@@ -119,7 +120,8 @@ the next project.  That way, technical debt gets limited in the areas in which
 it appears.  There are some areas where no good solution exists and you have
 to keep an eye out for new solutions as they arise.  To the best of my knowlege,
 there isn't any great solution for Data Containerization as yet, and that's
-something that scientific data wrangling sorely needs.  I use Python as my
+something that scientific data wrangling sorely needs (perhaps to be met by
+[Arrow Datasets](https://arrow.apache.org/docs/python/dataset.html)).  I use Python as my
 primary development language, and despite many things that I love about the
 language, Python packaging leaves a lot to be desired in comparison to, say,
 npm.  

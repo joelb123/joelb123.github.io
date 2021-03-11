@@ -2,8 +2,8 @@
 
 Data analysis, on a good day, is a creative process, especially in the questions
 one poses of the data.  A good hypothesis starts from consideration
-of what a plausible mechanism might be, and the most essential discriminatory element i
-is not what numerical technique one uses but rather the **tingle one gets at the top of i
+of what a plausible mechanism might be, and the most essential discriminatory element
+is not what numerical technique one uses but rather the **tingle one gets at the top of
 one's spine** when one gets to see clearly into a new view of nature.
 Among quantitative types, bioinformaticians frequently have a reputation for intellectual
 shabbiness, a reputation that is only partly deserved.  One reason is that it's a long
@@ -71,8 +71,8 @@ with a clonal collection of nucleic acids and if the final product is a genomic
 assembly.  In those circumstances, assembly does a lot of error-correction and
 data-reduction steps that are valuable for many uses.  But when the desired output
 is fundamentally *counts* of signatures and the input is not necessarily clonal,
-then **assembly is terrible for counting because it is non-linear**.  
-The chances of finding two pieces of sequence
+then **assembly is terrible for counting because it is non-linear**.  The chances of 
+finding two pieces of sequence
 that overlap isn't linear, so the count data that you are seeking gets put through
 a non-linear filter that depends on distributions of other biota, their genome sizes,
 their distribution of complexity-masked regions, as well as the usual non-linearity
@@ -113,7 +113,7 @@ to getting credible and reliable results.  For RNA-Seq data, for instance, a spa
 might by obtained by pushing the system by varying the metabolic, signalling,
 and regulatory-gene possibilies and ensuring that the reduced-dimension
 basis vectors are stable with respect to partitioning between training and test
-data. There is no substitute for having enough independent data sets.` 
+data. There is no substitute for having enough **independent data sets that span the input space.**
 
 ### Resist Joining a Priest Caste
 I have noticed that in some laboratories, bioinformaticians play a role akin to that
@@ -139,9 +139,9 @@ to realize that  **programming is as essential as basic literacy** to anyone who
 to analyze data.  You don't have to become a software author as a career, but everyone needs to
 be able to write a simple script for the same reasons that everyone needs to
 be able to write an abstract paragraph for publication.  If you pride yourself as
-a career data analyst, as I do, then you need to **mentor other team members with kindness*
-and generosity, inquiring about their needs and listening to their complaints.  Something
+a career data analyst, as I do, then you need to **mentor other team members with kindness
+and generosity**, inquiring about their needs and listening to their complaints.  Something
 is wrong with a person if they don't have the desire to throw every computer in their
 lives out the window now and then.  Science consists of many many hours of
-grunt work that enable a few moments of insight too rewarding for just
+grunt work that enable a few moments of insight, moments too rewarding for just
 one member of the team to hog to himself.
