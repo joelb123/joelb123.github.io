@@ -1,4 +1,4 @@
-## Current Opinions of Joel Berendzen (early 2021)
+## Current Opinions of Joel Berendzen (mid 2022)
 
 ![DNA/tree](dna+tree.png)
 
@@ -6,8 +6,8 @@
 [Hans Frauenfelder](hans.md)
 gave me more than 30 years ago as I was contemplating what to do after I finished my PhD.
 At the time Hans said that, biology wasn't especially data-rich, but by 2021 the situation
-has changed.  For example, a a premier astronomical observatory, the Webb Space Telescope, 
-is expected to produce around 200 TB of data per year when it comes online in 2022.  A 
+has changed.  For example, the Webb Space Telescope 
+is expected to produce around 200 TB of data per year.  A 
 premier biological sequence observatory, the Broad Institute, has been producing that has 
 been producing that much data *per month* for the last few years. 
 
