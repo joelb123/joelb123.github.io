@@ -5,8 +5,9 @@
 **"Follow the data!"** was the dictum my advisor, 
 [Hans Frauenfelder](hans.md)
 gave me more than 30 years ago as I was contemplating what to do after I finished my PhD.
-At the time Hans said that, biology wasn't especially data-rich, but by 2021 the situation
-has changed.  For example, the Webb Space Telescope 
+At the time Hans said that, biology wasn't especially data-rich, but now
+the situation
+has changed.  For example, the Webb Space Telescope
 is expected to produce around 200 TB of data per year.  A 
 premier biological sequence observatory, the Broad Institute, has been producing that has 
 been producing that much data *per month* for the last few years. 

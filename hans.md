@@ -1,13 +1,14 @@
 ##Hans Frauenfelder Has Died at age 99
 ###Discoverer of the Dances of Proteins and a Giant of Biological Physics
 
-![Hans Frauenfelder at a dining table](Hans_Frauenfelder.png)
+![Hans Frauenfelder at a dining table](images/HansF_2001.jpg)
 
 Hans, my thesis advisor, died at his home in Santa Fe. He is survived by his wife, Vreneli, his son Uli, and his daughters
 Katterli and Anne. He had 5 grandchildren, 2 great-grandchildren, and over 100 former students that formed his extended 
 family. 
 
-Hans' love of science began in high school in his village in Switzerland, where he was inspired by a teacher who 
+Hans' love of science began in high school in his village of Neuhausen 
+in Switzerland, where he was inspired by a teacher who 
 took an unconventional approach to physics based in optics. The elderly teacher was said to have taught physics to 
 Albert Einstein some 40 years earlier. Hans was a wonderful mentor to both his biological and scientific kids. A born 
 explorer and accomplished athlete, he loved telling stories. He had a gift for analogy, likening a small molecule binding
