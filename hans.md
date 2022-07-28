@@ -1,5 +1,5 @@
-##Hans Frauenfelder Has Died at age 99
-###Discoverer of the Dances of Proteins and a Giant of Biological Physics
+## Hans Frauenfelder Has Died at age 99
+### Discoverer of the Dances of Proteins and a Giant of Biological Physics
 
 ![Hans Frauenfelder at a dining table](images/HansF_2001.jpg)
 
