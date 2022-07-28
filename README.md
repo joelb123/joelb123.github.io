@@ -1,6 +1,6 @@
 ## Current Opinions of Joel Berendzen (mid 2022)
 
-![DNA/tree](dna+tree.png)
+![DNA/tree](images/dna+tree.png)
 
 **"Follow the data!"** was the dictum my advisor, 
 [Hans Frauenfelder](hans.md)
