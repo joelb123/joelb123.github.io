@@ -19,6 +19,10 @@ about to be huge streams coming out of microscopy-driven projects such as the Hu
 Brain Mapping Initiative.  Biology has quietly become the most data-intensive science 
 of the Age of Big Data.
 
+Throughout my career I've worked on [motions in proteins](dynamics.md). I've returned
+to this work lately with a new perspective brought on by AI-driven structural methods
+such as AlphaFold.
+
 Here's an essay on [creating the Theory of Biology](theory.md)
 by building bridges among  data, signatures, models, and applications.
 
