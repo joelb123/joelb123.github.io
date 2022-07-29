@@ -4,7 +4,7 @@
 
 **"Follow the data!"** was the dictum my advisor, 
 [Hans Frauenfelder](hans.md)
-gave me more than 30 years ago as I was contemplating what to do after I finished my PhD.
+gave me more than 30 years ago as I was thinking about what to do post-PhD.
 At the time Hans said that, biology wasn't especially data-rich, but now
 the situation
 has changed.  For example, the Webb Space Telescope
@@ -31,7 +31,7 @@ model and example, not just a means to an end.  Here are my thoughts on
 [writing scalable software](software.md).  
 
 I have published 
-[roughly 50 papers with over 12,000 citations](https://bit.ly/JoelBerendzen) that
+[roughly 50 papers with over 13,000 citations](https://bit.ly/JoelBerendzen) that
 explore the interrelations among sequences, structures, gene-family trees, dynamics,
 and hydration.
 
