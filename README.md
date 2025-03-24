@@ -1,43 +1,45 @@
-## Current Opinions of Joel Berendzen (mid 2022)
+## Current Opinions of Joel Berendzen
 
 ![DNA/tree](images/dna+tree.png)
 
-**"Follow the data!"** was the dictum my advisor, 
-[Hans Frauenfelder](hans.md)
+**"Follow the data!"** was the dictum my advisor, [Hans Frauenfelder](hans.md)
 gave me more than 30 years ago as I was thinking about what to do post-PhD.
 At the time Hans said that, biology wasn't especially data-rich, but now
-the situation
-has changed.  For example, the Webb Space Telescope
-is expected to produce around 200 TB of data per year.  A 
-premier biological sequence observatory, the Broad Institute, has been producing that has 
-been producing that much data *per month* for the last few years. 
+the situation has changed.  For example, the Webb Space Telescope is expected
+to produce around 200 TB of data per year.  A premier biological sequence
+observatory, the Broad Institute, has been producing that has been producing
+that much data *per month* for the last few years. It's not just sequencers, 
+either; there are sizeable flows from protein crystallography, and there's about
+to be huge streams coming out ofmicroscopy-driven projects such as the Human Brain
+Mapping Initiative.  Biology has quietly become the most data-intensive science
+in the Age of Big Data.
 
-Moreover, the number of labs with sequencers in them is a lot larger---and growing faster--than
-the number of labs with telescopes.  It's not just sequencers, either; there are sizeable
-data flows from protein crystallography at synchrotron beamlines worldwide, and there's
-about to be huge streams coming out of microscopy-driven projects such as the Human
-Brain Mapping Initiative.  Biology has quietly become the most data-intensive science 
-of the Age of Big Data.
+# Essays
 
-Throughout my career I've worked on [motions in proteins](dynamics.md). I've returned
-to this work lately with a new perspective brought on by AI-driven structural methods
-such as AlphaFold.
+Currently (early 2025), I"m writing more code than words, but here are some
+short-form essays on topic I have thought about:
 
-Here's an essay on [creating the Theory of Biology](theory.md)
-by building bridges among  data, signatures, models, and applications.
+- Throughout my career I've worked on [motions in proteins](dynamics.md). I've returned
+  to this work lately with a new phylogeny-based perspective.
 
-Much of my recent work has been on genomic sequences.  Here are some 
-thoughts on [bioinformatics and bioinformaticians](bioinformatics.md).
+- I believe in [creating the Theory of Biology](theory.md)
+  by building bridges among  data, signatures, models, and applications.
 
-I create software to analyze data, and I try to write for the future as well as
-to solve particular problems today.  If I do my part well, my efforts are to be a 
-model and example, not just a means to an end.  Here are my thoughts on
-[writing scalable software](software.md).  
+- Some of my work has been on genomic sequences.  Here are some 
+  thoughts on [bioinformatics and bioinformaticians](bioinformatics.md).
+
+- I create software to analyze data, and I try to write for the future as well as
+  to solve particular problems today. Here are my thoughts on
+  [writing scalable scientific software](software.md).  
+
+# Papers
 
 I have published 
 [roughly 50 papers with over 13,000 citations](https://bit.ly/JoelBerendzen) that
 explore the interrelations among sequences, structures, gene-family trees, dynamics,
 and hydration.
+
+# Code
 
 Here is an overview of some of my **code repositories** and other places where I've contributed:
 
@@ -52,14 +54,6 @@ Here is an overview of some of my **code repositories** and other places where I
 - [pytest-datadir-mgr](https://github.com/joelb123/pytest-datadir-mgr) Most scientific code needs
   to test using data files too large to be kept in the repository.  The code in 
   this repository makes downloading input data and saving intermediate results an easier task.
-- [pybio Gentoo Overlay](https://github.com/joelb123/pybio) Computational biologists need a
-  development distro, and for years mine has been [Gentoo](https://gentoo.org) i
-  because of the large number of
-  biology-related packages and because its a source-code distribution.  (For production and
-  container use, I like [Clear Linux](https://clearlinux.org) for its performance and update
-  properties.)  This private repo contains another 100 or so packages that I find useful on top of 
-  the 200 in the main tree and the 300 in the 
-  [Science overlay](https://wiki.gentoo.org/wiki/Project:Science/Overlay).
 - [aakbar](https://github.com/joelb123/aakbar) This Amino Acid K-mer calculator can be used to 
   calculate signature peptides by phylogenetic or other means.  Its output can be used in Sequedex
   or other signature methods.  Its input can be raw proteomes, but it's better with sets of proxy
@@ -74,4 +68,4 @@ Here is an overview of some of my **code repositories** and other places where I
   X-ray crystal structures of proteins.  It calculates a statistic that acts very much like autofocus 
   on a camera.  SOLVE is closed-source.
 
-You can comment on this page or reach me on [Twitter](https://twitter.com/Sequedex).
+You can comment on this page or reach me on [BlueSky](https://bsky.app/profile/joelb123.bsky.social).
